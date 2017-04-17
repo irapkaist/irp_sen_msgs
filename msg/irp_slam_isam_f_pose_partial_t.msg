@@ -1,0 +1,25 @@
+# Add a pose partial factor
+# either full or partial pose factors(include prior)
+
+
+int64_t utime;
+
+int64_t node_id;   # id of the node (usually utime)
+
+int32_t sub_type;  # factor sub type
+const int32_t SUB_TYPE_FULL_STATE_P3D         = 0;
+const int32_t SUB_TYPE_ZPR_PARTIAL_P3D        = 1;
+const int32_t SUB_TYPE_H_PARTIAL_P3D          = 2;
+const int32_t SUB_TYPE_RP_PARTIAL_P3D         = 3;
+const int32_t SUB_TYPE_Z_PARTIAL_P3D          = 4;
+const int32_t SUB_TYPE_XY_PARTIAL_P3D         = 5;
+const int32_t SUB_TYPE_FULL_STATE_P2D         = 6;
+
+int8_t use_anchor; # if true, assign an anchor node for a new graph          
+
+int32_t n;
+double  z[n];      # measurement vector
+int32_t n2; 
+double  R[n2];     # measurement covariance
+ 
+boolean use_dcs;   # use dynamic covariance scaling
