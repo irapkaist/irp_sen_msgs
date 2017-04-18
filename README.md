@@ -1,4 +1,4 @@
-# irp_msg
+# irp_msgs
 
 ## This repo includes msg files for IRAP
 
