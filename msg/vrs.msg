@@ -12,6 +12,8 @@ float64 latitude
 float64 x_coordinate
 float64 y_coordinate
 
+float64 altitude
+
 int8 fix_state
 string fix_state_str
 
