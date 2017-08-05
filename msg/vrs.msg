@@ -24,17 +24,17 @@ float64 altitude
 int8 fix_state
 string fix_state_str
 
-float horizental_precision;
-float64 lat_std;
-float64 lon_std;
-float64 altitude_std;
+float64 horizental_precision;
+float64 lat_std
+float64 lon_std
+float64 altitude_std
 
 int8 number_of_sat
 
-boolean heading_valid;
-float64 heading_true;
-float64 heading_magnet;
-float64 speed_knot;
-float64 speed_km;
-string GNVTG_mode;
+boolean heading_valid
+float64 heading_true
+float64 heading_magnet
+float64 speed_knot
+float64 speed_km
+string GNVTG_mode
 
