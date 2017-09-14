@@ -1,5 +1,9 @@
 # Sensor msg definition for complex urban data set
 
+maintainer: JinyongJeong
+
+email: jjy0923@kaist.ac.kr
+
 If you use the ROS package provided by the complex urban data set, clone this msg package to the src folder of catkin_ws.
 
 ## Msg type
