@@ -6,7 +6,7 @@
     ROS message definitions for IRAP.
   </description>
   <maintainer email="irap@kaist.ac.kr">IRAP</maintainer>
-  <author>IRAP</author>
+  <author>Jinyong Jeong</author>
   <license>BSD</license>
 
   <url type="website">http://irap.kaist.ac.kr</url>
