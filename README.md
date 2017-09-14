@@ -1,26 +1,19 @@
-# irp_sen_msgs
+# Sensor msg definition for complex urban data set
 
-## This repo includes msg files for sensors
+If you use the ROS package provided by the complex urban data set, clone this msg package to the src folder of catkin_ws.
 
-## Submodule setup
+This package include 
 
-If you want to add this as a submodule inside your project or code:
+- VRS GPS msg
 
-https://git-scm.com/book/ko/v2/Git-%EB%8F%84%EA%B5%AC-%EC%84%9C%EB%B8%8C%EB%AA%A8%EB%93%88
+- Laser scan array msg
 
-## List of sensors
+- IMU msg
 
-* encoder
-Autonix and RLS 
+- 3 axis FOG msg
 
-* fog
-KVH
+- 1 axis FOG msg
 
-* imu
-Xsens
+- encoder msg
 
-* Altimeter
-Withrobot mypressure
-
-* vrs
-Sokkia VRS GPS 
+- altimeter msg
