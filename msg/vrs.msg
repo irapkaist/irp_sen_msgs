@@ -20,6 +20,7 @@ float64 x_coordinate
 float64 y_coordinate
 
 float64 altitude
+float64 altitude_orthometric
 
 int8 fix_state
 string fix_state_str
